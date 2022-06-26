@@ -1,8 +1,8 @@
-export const GifItem = ({ image }) => {
-  console.log(image);
+export const GifItem = ({ title, url }) => {
+  console.log(title, url);
   return (
     <>
-      <h1>fff</h1>
+      <h1>Gif</h1>
     </>
   );
 };
