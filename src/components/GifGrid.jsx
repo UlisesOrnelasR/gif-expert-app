@@ -17,12 +17,11 @@ export const GifGrid = ({ category }) => {
   return (
     <>
       <h3>{category}</h3>
-      <ol>
-        {images.map(({ id, title }) => (
-          <GifItem />
+      <div className="card-grid">
+        {images.map((image) => (
+          <GifItem key={image.id} image={image} />
         ))}
-        <li>titulo</li>
-      </ol>
+      </div>
     </>
   );
 };
