@@ -6,8 +6,8 @@ exports[`Pruebass sobre el componente <GifItem /> Deberia de hacer match con el 
     class="card"
   >
     <img
-      alt="title"
-      src="https://www.naruto-academy.com"
+      alt="Naruto"
+      src="https://naruto.com"
     />
     <p>
       Naruto
