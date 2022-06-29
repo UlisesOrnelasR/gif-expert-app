@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 
 export const AddCategory = ({ onNewCategory }) => {
   const [inputValue, setInputValue] = useState("");
-  const onInputChange = (eve) => {
-    setInputValue(eve.target.value);
+  const onInputChange = ({ target }) => {
+    setInputValue(target.value);
   };
   const onSubmit = (eve) => {
     eve.preventDefault();
