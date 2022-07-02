@@ -17,7 +17,7 @@ export const AddCategory = ({ onNewCategory }) => {
     setInputValue("");
   };
   return (
-    <form onSubmit={(eve) => onSubmit(eve)}>
+    <form onSubmit={(eve) => onSubmit(eve)} aria-label="form">
       <input
         type="text"
         placeholder="Buscar gifs"
