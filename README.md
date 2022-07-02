@@ -6,4 +6,4 @@ Aplicación creada con React JS, usando hooks, custom hooks, Fetch hacia un API.
 #### Proximamente
 
 - Mejorar el estilo con Bootstrap
-- Testing a la app
+
